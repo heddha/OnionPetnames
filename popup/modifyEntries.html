@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+  <div class="outer-wrapper">
+    <div class="new-petname">
+      <a href="menu.html">
+      <button>Back</button>
+    </a>
+      <button class="getAddField">Add an entry</button>
+      <form id="newEntryForm" style="display:none">
+        <input type="text" name="petnameText" placeholder="Petname"/>
+        <input type="text" name="onionText" placeholder="Onion address"/>
+        </form>
+        <button id="newEntryButton" class="add" style="display:none">New entry</button>
+      <button class="clear">Remove all entries</button>
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="petname-container">
+
+    </div>
+  </div>
+
+  <script src="functions.js"></script>
+  <script src="showModifyFunctionality.js"></script>
+</body>
+
+</html>

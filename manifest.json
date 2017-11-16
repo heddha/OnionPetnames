@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "Onion_Petnames",
+  "version": "1.0",
+
+  "description": "Allows the user to enter onionnames in the style of an address book, manipulate entries and access them quickly. The pairs of onionname and petname are saved in the Storage.",
+  "icons": {
+    "48": "icons/unicorn-48.png"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+     "32" : "icons/unicorn-32.png"
+    },
+    "default_title": "Petnames",
+    "default_popup": "popup/menu.html"
+  }
+
+}

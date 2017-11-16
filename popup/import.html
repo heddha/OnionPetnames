@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+  <div class="outer-wrapper">
+    <a href="menu.html">
+    <button>Back</button>
+    </a>
+    <input type="text" name="secretPassphrase" placeholder="Insert the passphrase that was used to encrypt the data"/>
+    <br>
+    <br>
+    Choose the file to import data from:
+    <input type="file" id="importRulesFile"/>
+    <br><div id="disclaimer">
+    Attention: normally, opening a file via webextension closes the webextension window. We can then not use the file anymore. This is not a desired behaviour, as stated <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1292701">here</a> and <a href="https://discourse.mozilla.org/t/how-to-load-file-into-webextension-popup/10134">here</a> . The team is working on a fix. In order to import things with this extension you need to open the about:config tab and set "ui.popup.disable_autohide" to "true", until the issues have been fixed.</div>
+  </div>
+  <script src="aes.js"></script>
+  <script src="functions.js"></script>
+  <script src="menu.js"></script>
+</body>
+
+</html>
