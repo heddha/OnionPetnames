@@ -10,3 +10,6 @@ To start using this work-in-progress, download the code, go to about:debugging a
 
 
 If you feel like participating in this project, please do!
+
+
+[0]: https://blog.torproject.org/blog/cooking-onions-names-your-onions
