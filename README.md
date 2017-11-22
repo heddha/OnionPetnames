@@ -9,7 +9,6 @@ This web extension aims to store onion addresses under a "petname", very similar
 To start using this work-in-progress, download the code, go to about:debugging and under "Load Temporary Add-on", select the file "manifest.json". 
 
 
-If you feel like participating in this project, please do!
-
+If you feel like participating in this project, you're very welcome to!
 
 [0]: https://blog.torproject.org/blog/cooking-onions-names-your-onions
